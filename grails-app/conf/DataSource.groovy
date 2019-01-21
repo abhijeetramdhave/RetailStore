@@ -21,19 +21,19 @@ hibernate {
 environments {
     development {
         dataSource {
-            dbCreate = 'create' // one of 'create', 'create-drop', 'update', 'validate', ''
+            dbCreate = '' // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost:3306/retailstore"
         }
     }
     test {
         dataSource {
-            dbCreate = 'create' // one of 'create', 'create-drop', 'update', 'validate', ''
+            dbCreate = '' // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost:3306/retailstore"
         }
     }
     production {
         dataSource {
-            dbCreate = 'create' // one of 'create', 'create-drop', 'update', 'validate', ''
+            dbCreate = '' // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost:3306/retailstore"
             properties {
                // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
